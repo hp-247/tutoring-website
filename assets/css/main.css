@@ -237,7 +237,8 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.5em;
+			text-align: center;
 		}
 
 		h2 {
@@ -2858,6 +2859,13 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+			h1 {
+				text-align: center !important;
+			}
+
+			.button {
+				font-size: 0.6em;
+			}
 		}
 
 /* Section/Article */
@@ -3910,4 +3918,27 @@ input, select, textarea {
 
 		#color {
 			color: white !important;
+		}
+
+		.feature {
+			max-width: 33%;
+			display: inline-block;
+			vertical-align: top;
+			padding: 20px;
+		}
+
+		@media only screen and (max-width: 1910px) {
+			#three-logos {
+					display: none;
+			}
+		}
+
+		@media only screen and (max-width: 1280px) {
+			#logo {
+					display: none;
+			}
+		}
+
+		.first-logo {
+			margin: 0 auto !important;
 		}
